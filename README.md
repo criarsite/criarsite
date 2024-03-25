@@ -16,12 +16,18 @@ Here are some ideas to get you started:
 -->
 
 <script type="text/javascript">
-	atOptions = {
-		'key' : 'f5205f3dbbac6dd91f5a884c4a8b6f5d',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="//www.topcreativeformat.com/f5205f3dbbac6dd91f5a884c4a8b6f5d/invoke.js"></scr' + 'ipt>');
+    (function() {
+        var atOptions = {
+            'key' : 'f5205f3dbbac6dd91f5a884c4a8b6f5d',
+            'format' : 'iframe',
+            'height' : 50,
+            'width' : 320,
+            'params' : {}
+        };
+        var script = document.createElement('script');
+        script.defer = true;
+        script.type = 'text/javascript';
+        script.src = '//www.topcreativeformat.com/f5205f3dbbac6dd91f5a884c4a8b6f5d/invoke.js';
+        document.head.appendChild(script);
+    })();
 </script>
