@@ -15,19 +15,13 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<script type="text/javascript">
-    (function() {
-        var atOptions = {
-            'key' : 'f5205f3dbbac6dd91f5a884c4a8b6f5d',
-            'format' : 'iframe',
-            'height' : 50,
-            'width' : 320,
-            'params' : {}
-        };
-        var script = document.createElement('script');
-        script.defer = true;
-        script.type = 'text/javascript';
-        script.src = '//www.topcreativeformat.com/f5205f3dbbac6dd91f5a884c4a8b6f5d/invoke.js';
-        document.head.appendChild(script);
-    })();
-</script>
+&lt;script type=&quot;text/javascript&quot;&gt;
+	atOptions = {
+		&#039;key&#039; : &#039;f5205f3dbbac6dd91f5a884c4a8b6f5d&#039;,
+		&#039;format&#039; : &#039;iframe&#039;,
+		&#039;height&#039; : 50,
+		&#039;width&#039; : 320,
+		&#039;params&#039; : {}
+	};
+	document.write(&#039;&lt;scr&#039; + &#039;ipt type=&quot;text/javascript&quot; src=&quot;//www.topcreativeformat.com/f5205f3dbbac6dd91f5a884c4a8b6f5d/invoke.js&quot;&gt;&lt;/scr&#039; + &#039;ipt&gt;&#039;);
+&lt;/script&gt;
